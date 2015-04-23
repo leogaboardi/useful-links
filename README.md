@@ -1,2 +1,5 @@
 # useful-links
 Compilation of useful links explaining several tools that are used in coding
+
+Setting up postgres (databased used in rails that is understandable by Heroku
+http://stackoverflow.com/questions/7086654/installing-postgres-on-windows-for-use-with-ruby-on-rails
