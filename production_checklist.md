@@ -1,6 +1,8 @@
 #Production checklist (for Heroku)
 
 ##Asset precompile
+Tips:
+https://www.reinteractive.net/posts/116-12-tips-for-the-rails-asset-pipeline
 
 Layout view:
 ```
