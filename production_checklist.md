@@ -1,6 +1,13 @@
 #Production checklist (for Heroku)
 
 ##Asset precompile
+
+Layout view:
+```
+<%= stylesheet_link_tag    "bootstrap.min", media: "all", "data-turbolinks-track" => true %>
+<%= stylesheet_link_tag    "styles", media: "all", "data-turbolinks-track" => true %>
+<%= javascript_include_tag "application", "data-turbolinks-track" => true %>
+```
 Add in /config/environments/production.rb:
 ```
 config.assets.precompile = ['*.js', '*.css', '*.css.erb']
