@@ -21,6 +21,12 @@ The compiled asset will be "digested", i.e. be named like `jumbotronv2-ba10fc802
 ```
 <img src=<%= image_path("jumbotronv2.jpg") %>>
 ```
+
+This is also true for `.css` and `.js` assets:
+```
+<%= asset_path('logo.png') %>
+``` 
+
 ##Asset precompile
 
 Layout view:
