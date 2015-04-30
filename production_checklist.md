@@ -39,3 +39,10 @@ Does this need to be made in heroky as well>?
 
 `gem 'newrelic_rpm'`
 Download and put the yaml file in `application_name/config`
+
+## Databases
+
+```
+rake db:create:all
+rake db:migrate
+```
