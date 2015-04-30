@@ -2,6 +2,7 @@
 
 ### Useful references
 https://devcenter.heroku.com/articles/rails-4-asset-pipeline
+
 https://www.reinteractive.net/posts/116-12-tips-for-the-rails-asset-pipeline
 
 ## Allow serve assets
