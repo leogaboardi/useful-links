@@ -43,6 +43,10 @@ Download and put the yaml file in `application_name/config`
 ## Databases
 
 ```
-rake db:create:all
-rake db:migrate
+heroku run rake db:create
+heroku run  rake db:migrate
 ```
+Check if seed work in production (or: should I care?)
+
+## Open questions
+Database backup
