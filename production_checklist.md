@@ -34,3 +34,8 @@ In rails environment
 RAILS_ENV=production bundle exec rake assets:precompile
 ```
 Does this need to be made in heroky as well>?
+
+## Put newrelic
+
+`gem 'newrelic_rpm'`
+Download and put the yaml file in `application_name/config`
