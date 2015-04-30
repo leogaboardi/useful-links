@@ -21,10 +21,10 @@ The compiled asset will be "digested", i.e. be named like `jumbotronv2-ba10fc802
 ```
 <img src=<%= image_path("jumbotronv2.jpg") %>>
 ```
+Make sure to add a '.erb' extension to any files in 'app/assets' that use an ERB helper. So:
 
-This is also true for `.css` and `.js` assets:
 ```
-<%= asset_path('logo.png') %>
+<%= asset_path('application.css.erb') %>
 ``` 
 
 ##Asset precompile
