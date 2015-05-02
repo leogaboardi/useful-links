@@ -43,6 +43,7 @@ Download and put the yaml file in `application_name/config`
 ## Databases
 
 ```
+rake db:create:all
 heroku run rake db:create
 heroku run  rake db:migrate
 ```
