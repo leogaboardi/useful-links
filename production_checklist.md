@@ -50,3 +50,14 @@ Check if seed work in production (or: should I care?)
 ## Setup Amazon S3 for paperclip storage
 
 https://devcenter.heroku.com/articles/paperclip-s3
+
+## Put configuration variables
+
+```
+$ heroku config:set AWS_SECRET_ACCESS_KEY=your_secret_access_key
+```
+
+So you can put code such as
+```
+  :secret_access_key => ENV['AWS_SECRET_ACCESS_KEY'],
+```
