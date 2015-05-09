@@ -33,8 +33,6 @@ In rails environment
 ```
 RAILS_ENV=production bundle exec rake assets:precompile
 ```
-Does this need to be made in heroky as well>?
-
 ## Put newrelic
 
 `gem 'newrelic_rpm'`
@@ -49,5 +47,6 @@ heroku run  rake db:migrate
 ```
 Check if seed work in production (or: should I care?)
 
-## Open questions
-Database backup
+## Setup Amazon S3 for paperclip storage
+
+https://devcenter.heroku.com/articles/paperclip-s3
