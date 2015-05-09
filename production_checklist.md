@@ -56,7 +56,7 @@ https://devcenter.heroku.com/articles/paperclip-s3
 ```
 $ heroku config:set AWS_SECRET_ACCESS_KEY=your_secret_access_key
 ```
-
+(Note there is no need for "" in the string names)
 So you can put code such as
 ```
   :secret_access_key => ENV['AWS_SECRET_ACCESS_KEY'],
