@@ -12,6 +12,20 @@ config.serve_static_assets = true
 ```
 Otherwise assets will not be served in production enviroment
 
+## Setup pg server:
+in Gemfile:
+
+```
+gem 'pg'
+```
+
+Optional (if you don't want to set up the posgreSQL locally:
+```
+group :development, :test do
+  gem 'sqlite3'
+end
+```
+
 ## Use only EBR helpers:
 This will not work:
 ```
