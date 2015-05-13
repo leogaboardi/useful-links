@@ -8,3 +8,6 @@ http://stackoverflow.com/questions/7086654/installing-postgres-on-windows-for-us
 http://www.gotealeaf.com/blog/handling-emails-in-rails
 
 - Paperclip tutorial
+
+- How to set up Amazon S3 for Paperclip
+https://devcenter.heroku.com/articles/paperclip-s3
