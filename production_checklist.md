@@ -52,6 +52,13 @@ RAILS_ENV=production bundle exec rake assets:precompile
 `gem 'newrelic_rpm'`
 Download and put the yaml file in `application_name/config`
 
+## Check if app name in git matches Heroku:
+If terminal send an app-not-found message: 
+'''
+git remote rm heroku
+git remote add heroku git@heroku.com:yourappname.git
+'''
+
 ## Databases
 
 ```
