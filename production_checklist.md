@@ -68,6 +68,11 @@ https://devcenter.heroku.com/articles/direct-to-s3-image-uploads-in-rails
 
 ## Put configuration variables
 
+You can check configuration variables in 
+```
+$heroku config
+```
+
 ```
 $ heroku config:set AWS_SECRET_ACCESS_KEY=your_secret_access_key
 ```
