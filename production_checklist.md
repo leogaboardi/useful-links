@@ -19,7 +19,7 @@ in Gemfile:
 gem 'pg'
 ```
 
-Optional (if you don't want to set up the posgreSQL locally:
+Optional (if you don't want to set up the posgreSQL locally):
 ```
 group :development, :test do
   gem 'sqlite3'
@@ -71,6 +71,7 @@ Check if seed work in production (or: should I care?)
 ## Setup Amazon S3 for paperclip storage
 
 https://devcenter.heroku.com/articles/paperclip-s3
+
 https://devcenter.heroku.com/articles/direct-to-s3-image-uploads-in-rails
 
 ## Put configuration variables
