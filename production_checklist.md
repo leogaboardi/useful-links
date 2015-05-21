@@ -74,6 +74,10 @@ https://devcenter.heroku.com/articles/paperclip-s3
 
 https://devcenter.heroku.com/articles/direct-to-s3-image-uploads-in-rails
 
+https://github.com/thoughtbot/paperclip/wiki/Paperclip-with-Amazon-S3
+
+Don't forget to create the bucket and create a policy to allow uploads
+
 ## Put configuration variables
 
 You can check configuration variables in 
