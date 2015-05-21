@@ -76,7 +76,32 @@ https://devcenter.heroku.com/articles/direct-to-s3-image-uploads-in-rails
 
 https://github.com/thoughtbot/paperclip/wiki/Paperclip-with-Amazon-S3
 
-Don't forget to create the bucket and create a policy to allow uploads
+-Create the bucket and create a policy to allow uploads
+
+-Create a config/aws.yml file with:
+
+```
+  production:
+    AWS_ACCESS_KEY_ID: xxx
+    AWS_SECRET_ACCESS_KEY: xxx
+    S3_BUCKET_NAME: xxx
+  ...
+```
+
+- Put in config/environments/production.rb:
+
+'''
+    # Amazon S3 settings for Paperclip uploads
+  config.paperclip_defaults = {
+    :storage => :s3,
+    :s3_credentials => {
+      :bucket => ENV['S3_BUCKET_NAME'],
+      :access_key_id => ENV['AWS_ACCESS_KEY_ID'],
+      :secret_access_key => ENV['AWS_SECRET_ACCESS_KEY']
+      }
+  }
+'''
+
 
 ## Put configuration variables
 
