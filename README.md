@@ -13,3 +13,5 @@ http://www.gotealeaf.com/blog/handling-emails-in-rails
 https://devcenter.heroku.com/articles/paperclip-s3
 
 - Ransack gem (for search functions)
+
+- Railscasts.com
