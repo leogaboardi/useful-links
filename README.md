@@ -15,3 +15,5 @@ https://devcenter.heroku.com/articles/paperclip-s3
 - Ransack gem (for search functions)
 
 - Railscasts.com
+
+- Favorites.offset(random(Favorites.count)).first  (hint for pagination)
