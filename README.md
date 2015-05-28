@@ -11,3 +11,5 @@ http://www.gotealeaf.com/blog/handling-emails-in-rails
 
 - How to set up Amazon S3 for Paperclip
 https://devcenter.heroku.com/articles/paperclip-s3
+
+- Ransack gem (for search functions)
