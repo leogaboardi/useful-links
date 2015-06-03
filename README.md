@@ -7,13 +7,14 @@ http://stackoverflow.com/questions/7086654/installing-postgres-on-windows-for-us
 - Tutorial on sending emails
 http://www.gotealeaf.com/blog/handling-emails-in-rails
 
-- Paperclip tutorial
-
 - How to set up Amazon S3 for Paperclip
 https://devcenter.heroku.com/articles/paperclip-s3
-
-- Ransack gem (for search functions)
 
 - Railscasts.com
 
 - Favorites.offset(random(Favorites.count)).first  (hint for pagination)
+
+## Useful gems
+- paperclip
+- activeadmin
+- ransack gem (for search functions)
