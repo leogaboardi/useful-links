@@ -66,7 +66,7 @@ rake db:create:all
 heroku run rake db:create
 heroku run  rake db:migrate
 
-AILS_ENV=production rake db:seed
+RAILS_ENV=production rake db:seed
 ```
 
 
