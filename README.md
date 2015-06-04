@@ -22,15 +22,17 @@ https://devcenter.heroku.com/articles/paperclip-s3
 
 ## Other useful stuff
 - Ajax: on the link_to tag, add:
-''' :remote => true ''' 
-- The request works without reloading the page, but it does not update the view.
-''' respond_to do |format|
+``` :remote => true ``` 
+- The request works without reloading the page, but it does not update the view. Add responder block
+``` respond_to do |format|
   format.html do
     redirect_to "/index",:notice => "deletedL
   end
   format.js do
     render('destroy.js.erb')
   end
-'''
+```
+
+-Lastly: add the useful code in the js.erb file
 
 
