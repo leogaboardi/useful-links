@@ -12,8 +12,8 @@ https://devcenter.heroku.com/articles/paperclip-s3
 
 - Railscasts.com
 
-- Favorites.offset(random(Favorites.count)).first  (hint for pagination)
-- respond_to do |format|
+- Hint for pagination: ``` Favorites.offset(random(Favorites.count)).first ```
+- ```respond_to do |format|```
 
 ## Useful gems
 - paperclip
