@@ -54,10 +54,10 @@ Download and put the yaml file in `application_name/config`
 
 ## Check if app name in git matches Heroku:
 If terminal send an app-not-found message: 
-'''
+```
 git remote rm heroku
 git remote add heroku git@heroku.com:yourappname.git
-'''
+```
 
 ## Databases
 
@@ -65,8 +65,10 @@ git remote add heroku git@heroku.com:yourappname.git
 rake db:create:all
 heroku run rake db:create
 heroku run  rake db:migrate
+
+AILS_ENV=production rake db:seed
 ```
-Check if seed work in production (or: should I care?)
+
 
 ## Setup Amazon S3 for paperclip storage
 
