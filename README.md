@@ -21,10 +21,11 @@ https://devcenter.heroku.com/articles/paperclip-s3
 - ransack gem (for search functions)
 
 ## Other useful stuff
-- Ajax: on the link_to tag, add:
-``` :remote => true ``` 
-- The request works without reloading the page, but it does not update the view. Add responder block
-``` respond_to do |format|
+- Ajax setup:
+-- On the link_to tag, add: ``` :remote => true ``` 
+-- The request works without reloading the page, but it does not update the view. Add responder block
+```
+respond_to do |format|
   format.html do
     redirect_to "/index",:notice => "deletedL
   end
@@ -33,9 +34,9 @@ https://devcenter.heroku.com/articles/paperclip-s3
   end
 ```
 
--Lastly: add the useful code in the js.erb file. Note the js.erb file stays in the view mode:
-
+--Lastly: add the useful code in the ```js.erb``` file. Note the ```js.erb``` file stays in the view mode:
+```
 $('favorite('favorite.dadsadasd').hide();
-
+```
 
 
