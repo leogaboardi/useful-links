@@ -33,6 +33,9 @@ https://devcenter.heroku.com/articles/paperclip-s3
   end
 ```
 
--Lastly: add the useful code in the js.erb file
+-Lastly: add the useful code in the js.erb file. Note the js.erb file stays in the view mode:
+
+$('favorite('favorite.dadsadasd').hide();
+
 
 
