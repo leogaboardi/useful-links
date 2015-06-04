@@ -20,3 +20,17 @@ https://devcenter.heroku.com/articles/paperclip-s3
 - activeadmin
 - ransack gem (for search functions)
 
+## Other useful stuff
+- Ajax: on the link_to tag, add:
+''' :remote => true ''' 
+- The request works without reloading the page, but it does not update the view.
+''' respond_to do |format|
+  format.html do
+    redirect_to "/index",:notice => "deletedL
+  end
+  format.js do
+    render('destroy.js.erb')
+  end
+'''
+
+
